@@ -364,7 +364,7 @@ html, body {
 
 .speech-text {
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 55.5%;
     transform: translate(-50%,-50%);
     width: 100%;
@@ -374,22 +374,22 @@ html, body {
 }
 
 .speech-text h2 {
-    font-size: 23px;
-    margin-bottom: 5px;
+    font-size: 33px;
+    margin-bottom: 3px;
     font-family: 'Cutive', serif;
 }
 
 .speech-text p {
-    font-size: 15px;
+    font-size: 23px;
     margin: 2px 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 .speech-text a {
     display: inline-block;
-    margin-top: 7px;
+    margin-top: 10px;
     color: #00314b;
-    font-size: 14px;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
 }
 
