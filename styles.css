@@ -341,12 +341,67 @@
 
 .foot {
     width: 100%;
+    display: block;
     overflow: hidden;
     height: 80vh;
-    transform: translate(0%, 10%);
+    transform: translate(0%, 20%);
     
 }
 
+
+.contact-section {
+    position: relative;
+    width: 100%;
+    margin: 1px auto;
+}
+
+.speech-text {
+    position: absolute;
+    top: 55%;
+    left: 55.5%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    color: #00314b;
+    
+}
+
+.speech-text h2 {
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-family: 'Cutive', serif;
+}
+
+.speech-text p {
+    font-size: 15px;
+    margin: 2px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.speech-text a {
+    display: inline-block;
+    margin-top: 7px;
+    color: #00314b;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.back-to-top {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    left: 90%;
+    width: 85%;
+    text-align: center;
+
+    background: #FFF0D3;
+  color: #06334A;
+  max-width: 400px;
+  margin: 0 auto 80px;
+  padding: 45px 30px;
+  border-radius: 60px;
+  position: relative;
+    
+}
 
 /*Works*/
 .works-section {
@@ -461,3 +516,4 @@
     }
 
 }
+
