@@ -73,12 +73,9 @@
 
 .body {
     background-color: #ffefd2;
-
+overflow-x: hidden;
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 /*Top*/
 .Circles {
